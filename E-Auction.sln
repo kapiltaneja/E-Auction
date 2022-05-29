@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{473E7822-72A4-4268-BEE5-17807D09B880}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6F334A68-D2EC-4359-925D-C19E3780EB80}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessSqliteProvider", "src\DataAccessSqliteProvider\DataAccessSqliteProvider.csproj", "{E737764A-BF5C-4B57-A26A-885550B7F364}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-Auction", "src\AspNetCoreMultipleProject\E-Auction.csproj", "{AD3372BE-2A8A-467E-ABB7-65739E5265A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DomainModel", "src\DomainModel\DomainModel.csproj", "{C621779A-DC48-4322-AAC9-A813A7002A42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumer-microservice", "Consumer-microservice\Consumer-microservice.csproj", "{73B00D71-C3D2-451B-8992-C8C1A59DB040}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E737764A-BF5C-4B57-A26A-885550B7F364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E737764A-BF5C-4B57-A26A-885550B7F364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E737764A-BF5C-4B57-A26A-885550B7F364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E737764A-BF5C-4B57-A26A-885550B7F364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD3372BE-2A8A-467E-ABB7-65739E5265A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD3372BE-2A8A-467E-ABB7-65739E5265A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD3372BE-2A8A-467E-ABB7-65739E5265A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD3372BE-2A8A-467E-ABB7-65739E5265A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C621779A-DC48-4322-AAC9-A813A7002A42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C621779A-DC48-4322-AAC9-A813A7002A42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C621779A-DC48-4322-AAC9-A813A7002A42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C621779A-DC48-4322-AAC9-A813A7002A42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73B00D71-C3D2-451B-8992-C8C1A59DB040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73B00D71-C3D2-451B-8992-C8C1A59DB040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73B00D71-C3D2-451B-8992-C8C1A59DB040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73B00D71-C3D2-451B-8992-C8C1A59DB040}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E737764A-BF5C-4B57-A26A-885550B7F364} = {473E7822-72A4-4268-BEE5-17807D09B880}
+		{AD3372BE-2A8A-467E-ABB7-65739E5265A3} = {473E7822-72A4-4268-BEE5-17807D09B880}
+		{C621779A-DC48-4322-AAC9-A813A7002A42} = {473E7822-72A4-4268-BEE5-17807D09B880}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {275798F3-A1DA-4BC7-9033-46E4684FBD6C}
+	EndGlobalSection
+EndGlobal
